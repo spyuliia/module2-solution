@@ -1,0 +1,76 @@
+body {
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times,
+    'Times New Roman', serif;
+}
+h1 {
+    text-align: center;
+    font-size: 28px;
+}
+.div1, .div2, .div3 {
+    border: 1px solid black;
+    background-color: rgb(169, 162, 162);
+    width: 90%;
+    margin-bottom: 30px;
+    position: relative;
+    padding: 0px;
+}
+h2 {
+    border: 1px solid black;
+    height: 35px;
+    width: 100px;
+    text-align: center;
+    margin: 0px;
+    position: absolute;
+    left: auto;
+    right: 0px;
+    top: 0px;
+    font-size: 20px;
+}
+#chicken {
+    background-color: rgb(246, 159, 223);
+}
+#beef {
+    background-color: rgb(142, 224, 142);
+}
+#sushi {
+    background-color: rgb(172, 195, 227);
+}
+
+p {
+    margin: 50px 20px 20px 20px;
+    font-size: 16px;
+}
+.row {
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+        width: 33%;
+        margin: auto;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6, .col-md-12 {
+        float: left;
+    }
+    .col-md-6 {
+        width: 49%;       
+    }
+    .col-md-12 {
+        width: 100%;
+    }
+    .div3 {
+        margin-left: 5%;
+        margin-right: 5%;
+    
+        
+    }
+    .div1, .div2 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
